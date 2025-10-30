@@ -426,9 +426,9 @@ classdef ECGApp_final < matlab.apps.AppBase
             percentage = app.percentage;
             amplitude_threshold = app.amplitude_threshold;
             % Log data to Excel
-            filename = 'ECG_Parameters.xlsx';
-            data = {patientID, cutoff, order, threshold, distance, method, min_peaks, interpolation, percentage, amplitude_threshold};
-            writecell(data, filename, 'WriteMode', 'append');
+            % filename = 'ECG_Parameters.xlsx';
+            % data = {patientID, cutoff, order, threshold, distance, method, min_peaks, interpolation, percentage, amplitude_threshold};
+            % writecell(data, filename, 'WriteMode', 'append');
             % app.ecgFileList(app.currentFileIndex)=[];
         end
 
@@ -860,3 +860,4 @@ classdef ECGApp_final < matlab.apps.AppBase
         end
     end
 end
+
