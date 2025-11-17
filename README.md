@@ -3,6 +3,7 @@ An algorithm for pacing artifacts removal from ECG signal
 
 Table of Content
 Pacing artifact removal file (ECGApp_final.m)
+Kors transformation - converts 12-lead ECGs to orthogonal XYZ leads for the viewer (kors.m)
 Test file: raw digital 12-lead ECG file in a .mat format (2 files: Test_file1.mat, Test_file2.mat)
 User manual: A .doc file describing detailed procedure to detect and remove pacing artifacts using the developed algorithm.
 
